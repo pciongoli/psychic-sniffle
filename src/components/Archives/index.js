@@ -3,29 +3,66 @@ import React from "react";
 function Archives() {
    return (
       <section className="my-5">
-         <div className="my-2">
-            <div>
-               <p>
-                  Est shank alcatra meatball. Venison meatloaf duis sausage
-                  occaecat in strip steak. Cow laborum aliquip nulla proident.
-                  Tri-tip ham consectetur tempor pancetta meatball. Drumstick
-                  turducken venison ham hock nulla jowl.
-               </p>
-               <p>
-                  Consectetur tail spare ribs lorem, corned beef pancetta
-                  nostrud sirloin chuck jowl officia landjaeger. Ribeye ground
-                  round pariatur, short ribs doner adipisicing bresaola. Pork
-                  belly filet mignon pork cupim t-bone. Kevin ullamco duis ham
-                  hock proident pork, ea enim bacon dolore dolore. Shankle cupim
-                  ipsum pig.
-               </p>
-               <p>
-                  Proident ea shankle sunt ut sed. Dolor deserunt leberkas est,
-                  irure anim pork cow burgdoggen short ribs labore lorem ball
-                  tip. Turducken fatback t-bone laborum proident beef ribs
-                  capicola picanha fugiat. Ham hock veniam ut nulla deserunt cow
-                  eu cupidatat et boudin.
-               </p>
+         <div className="container">
+            <div className="row">
+               <div className="col-lg-8">
+                  <h3>Short Story</h3>
+
+                  <p className="">by: Doreen Ciongoli</p>
+
+                  <br></br>
+
+                  <p className="lead">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Ducimus, vero, obcaecati, aut, error quam sapiente nemo
+                     saepe quibusdam sit excepturi nam quia corporis eligendi
+                     eos magni recusandae laborum minus inventore?
+                  </p>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Ut, tenetur natus doloremque laborum quos iste ipsum rerum
+                     obcaecati impedit odit illo dolorum ab tempora nihil dicta
+                     earum fugiat. Temporibus, voluptatibus.
+                  </p>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Eos, doloribus, dolorem iusto blanditiis unde eius illum
+                     consequuntur neque dicta incidunt ullam ea hic porro optio
+                     ratione repellat perspiciatis. Enim, iure!
+                  </p>
+
+                  <br></br>
+
+                  <div className="well">
+                     <h4>Leave a Comment:</h4>
+                     <form>
+                        <div className="form-group">
+                           <textarea
+                              className="form-control"
+                              rows="3"
+                           ></textarea>
+                        </div>
+                        <button type="submit" className="btn btn-primary">
+                           Submit
+                        </button>
+                     </form>
+                  </div>
+
+                  <br></br>
+
+                  <div className="media">
+                     <a className=" btn-submit" href="/archives">
+                        <span className="glyphicon glyphicon-comment"></span>
+                     </a>
+                     <div className="media-body">
+                        <h4 className="media-heading">
+                           PCoder Commented:
+                           <small> 6/20/22 @ 9:30p</small>
+                        </h4>
+                        Bacon ipsum dolor sit amet
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </section>
