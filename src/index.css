@@ -1,7 +1,7 @@
 main {
    margin: 0 auto;
    max-width: 90%;
-   padding: 40px 260px;
+   padding: 50px 120px;
 }
 :root {
    --primary: #8c54ff;
@@ -9,7 +9,7 @@ main {
    --tertiary: #b12704;
    --light: #fafafa;
    --dark: #799fba;
-   --darker: #3b6090;
+   --darker: #184177;
    --alpha: rgba(255, 255, 255, 0.7);
    --error: rgb(228, 46, 1);
    --spacing-one: calc(1rem * 0.5);
@@ -351,7 +351,7 @@ textarea {
 }
 
 .project-text a:hover {
-   color: var(--darker);
+   color: var(--secondary);
 }
 
 .navActive {
@@ -387,6 +387,7 @@ textarea {
       width: 100%;
       text-align: center;
       font-size: 2.3rem;
+      opacity: 0.7;
    }
 }
 

@@ -9,11 +9,11 @@ function App() {
       {
          name: "about me",
       },
-      { name: "portfolio" },
-      // { name: "contact" },
       {
          name: "archives",
       },
+      { name: "doreats" },
+      // { name: "contact" },
    ]);
 
    const [currentPage, setCurrentPage] = useState(pages[0]);
