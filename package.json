@@ -1,7 +1,7 @@
 {
    "name": "psychic-sniffle",
    "version": "0.1.0",
-   "homepage": "https://github.com/pciongoli/psychic-sniffle",
+   "homepage": "https://pciongoli.github.io/psychic-sniffle",
    "private": true,
    "dependencies": {
       "react": "^16.13.1",
