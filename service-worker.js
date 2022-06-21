@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/psychic-sniffle/precache-manifest.8bd32a9c8a8546d2f1c93da8dd964e02.js"
+  "/psychic-sniffle/precache-manifest.56c3d4c80a7a33dc024640eb5ccb6fe9.js"
 );
 
 workbox.clientsClaim();
