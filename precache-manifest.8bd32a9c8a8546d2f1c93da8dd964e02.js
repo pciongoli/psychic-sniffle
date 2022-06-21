@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "badb0d3a3faa6e486628",
-    "url": "/psychic-sniffle/static/css/main.dd7b7b1a.chunk.css"
+    "revision": "132a73fa7a1c0617f5dc",
+    "url": "/psychic-sniffle/static/css/main.2a27d471.chunk.css"
   },
   {
-    "revision": "badb0d3a3faa6e486628",
-    "url": "/psychic-sniffle/static/js/main.fbd6177d.chunk.js"
+    "revision": "132a73fa7a1c0617f5dc",
+    "url": "/psychic-sniffle/static/js/main.4d3bdf9d.chunk.js"
   },
   {
     "revision": "eed037e38b0d6d57b5ff",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/psychic-sniffle/static/media/surf-report.12557c9b.jpg"
   },
   {
-    "revision": "2b29998dbdd5da7fc4e8d3c4ddf791fe",
+    "revision": "da67132240787ae8609dd9015bc311e0",
     "url": "/psychic-sniffle/index.html"
   }
 ];
