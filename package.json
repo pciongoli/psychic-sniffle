@@ -1,5 +1,5 @@
 {
-   "name": "silver-giggle",
+   "name": "psychic-sniffle",
    "version": "1.0.0",
    "description": "",
    "main": "server/server.js",
@@ -14,9 +14,6 @@
    "author": "",
    "license": "ISC",
    "devDependencies": {
-      "concurrently": "^5.3.0"
-   },
-   "dependencies": {
-      "if-env": "^1.0.4"
+      "concurrently": "^5.1.0"
    }
 }

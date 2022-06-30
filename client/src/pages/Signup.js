@@ -48,10 +48,10 @@ const Signup = () => {
                         <input
                            className="form-input"
                            placeholder="Create a username"
-                           name="firstName"
-                           type="firstName"
-                           id="firstName"
-                           value={formState.firstName}
+                           name="username"
+                           type="username"
+                           id="username"
+                           value={formState.username}
                            onChange={handleChange}
                         />
                      </div>
@@ -59,7 +59,7 @@ const Signup = () => {
                      <div className="user-box">
                         <input
                            className="form-input"
-                           placeholder="Your email"
+                           placeholder="Enter your email"
                            name="email"
                            type="email"
                            id="email"

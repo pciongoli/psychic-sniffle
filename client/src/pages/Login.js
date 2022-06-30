@@ -5,7 +5,7 @@ import { LOGIN } from "../utils/mutations";
 import Auth from "../utils/auth";
 
 const Login = (props) => {
-   const [formState, setFormState] = useState({ email: "", password: "" });
+   const [formState, setFormState] = useState({ username: "", password: "" });
    const [login, { error }] = useMutation(LOGIN);
 
    // update state based on form input changes
@@ -34,7 +34,7 @@ const Login = (props) => {
 
       // clear form values
       setFormState({
-         email: "",
+         username: "",
          password: "",
       });
    };
@@ -49,18 +49,18 @@ const Login = (props) => {
                      <div className="user-box">
                         <input
                            className="form-input"
-                           placeholder="Your email"
-                           name="email"
-                           type="email"
-                           id="email"
-                           value={formState.email}
+                           placeholder="Your username"
+                           name="username"
+                           type="username"
+                           id="username"
+                           value={formState.username}
                            onChange={handleChange}
                         />
                      </div>
                      <div className="user-box">
                         <input
                            className="form-input"
-                           placeholder="******"
+                           placeholder="Enter Password"
                            name="password"
                            type="password"
                            id="password"
