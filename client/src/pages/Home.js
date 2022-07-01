@@ -5,18 +5,6 @@ const Home = () => {
       <div className="container">
          <section className="my-5">
             <div className="my-2">
-               <div className="profile-img my-5">
-                  {/* <img
-                     className="profile-pic"
-                     src={coverImage}
-                     alt="Doreen Ciongoli"
-                  ></img> */}
-
-                  {/* <i
-                 className="fas fa-user-circle"
-                 style={{ fontSize: "96px" }}
-              ></i> */}
-               </div>
                <div>
                   <p>
                      Bacon ipsum dolor amet swine pancetta pork belly beef ribs,
