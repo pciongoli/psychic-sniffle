@@ -8,7 +8,19 @@ function Nav() {
          return (
             <ul className="flex-row">
                <li className="mx-1">
-                  <Link to="/home">Home 📚</Link>
+                  <Link to="/home">HOME</Link>
+               </li>
+               <li className="mx-1">
+                  <Link to="/about">ABOUT</Link>
+               </li>
+               <li className="mx-1">
+                  <Link to="/archie">ARCHIVE</Link>
+               </li>
+               <li className="mx-1">
+                  <Link to="/contact">CONTACT</Link>
+               </li>
+               <li className="mx-1">
+                  <Link to="/portraits">PORTRAITS</Link>
                </li>
                <li className="mx-1">
                   {/* this is not using the Link component to logout or user and then refresh the application to the start */}

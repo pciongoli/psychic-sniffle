@@ -12,6 +12,10 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Archive from "./pages/Archive";
+import Contact from "./pages/Contact";
+import Portraits from "./pages/Portraits";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -45,6 +49,10 @@ function App() {
                   <Nav />
                   <Routes>
                      <Route path="/" element={<Home />} />
+                     <Route path="/" element={<About />} />
+                     <Route path="/" element={<Archive />} />
+                     <Route path="/" element={<Contact />} />
+                     <Route path="/" element={<Portraits />} />
                      <Route path="/login" element={<Login />} />
                      <Route path="/signup" element={<Signup />} />
                      <Route path="*" element={<NoMatch />} />
