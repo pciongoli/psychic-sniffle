@@ -8,19 +8,29 @@ function Nav() {
          return (
             <ul className="nav">
                <li className="nav-item">
-                  <Link to="/home">HOME</Link>
+                  <h4 className="text-white">
+                     <Link to="/">HOME</Link>
+                  </h4>
                </li>
                <li className="nav-item">
-                  <Link to="/about">ABOUT</Link>
+                  <h4>
+                     <Link to="/about">ABOUT</Link>
+                  </h4>
                </li>
                <li className="nav-item">
-                  <Link to="/archie">ARCHIVE</Link>
+                  <h4>
+                     <Link to="/archie">ARCHIVE</Link>
+                  </h4>
                </li>
                <li className="nav-item">
-                  <Link to="/contact">CONTACT</Link>
+                  <h4>
+                     <Link to="/contact">CONTACT</Link>
+                  </h4>
                </li>
                <li className="nav-item">
-                  <Link to="/portraits">PORTRAITS</Link>
+                  <h4>
+                     <Link to="/portraits">PORTRAITS</Link>
+                  </h4>
                </li>
                <li className="">
                   {/* this is not using the Link component to logout or user and then refresh the application to the start */}
@@ -34,10 +44,14 @@ function Nav() {
          return (
             <ul className="nav">
                <li className="nav-item">
-                  <Link to="/signup">Signup</Link>
+                  <h5>
+                     <Link to="/signup">Signup</Link>
+                  </h5>
                </li>
                <li className="nav-item">
-                  <Link to="/login">Login</Link>
+                  <h5>
+                     <Link to="/login">Login</Link>
+                  </h5>
                </li>
             </ul>
          );
@@ -46,11 +60,10 @@ function Nav() {
 
    return (
       <header className="text-center">
-         <h1>
-            <Link to="/">DOREEN CIONGOLI</Link>
-         </h1>
-         <br></br>
          <nav>{showNavigation()}</nav>
+
+         <h1 className="home-heading">DOREEN CIONGOLI</h1>
+         <br></br>
       </header>
    );
 }

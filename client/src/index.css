@@ -1,7 +1,7 @@
 :root {
    --primary: #000000;
    --secondary: #f3a847;
-   --tertiary: #b12704;
+   --tertiary: #000000;
    --light: #fafafa;
    --dark: #272f32;
    --error: rgb(228, 46, 1);
@@ -28,11 +28,6 @@ body {
    color: var(--dark);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
    font-family: "Urbanist", sans-serif;
    font-weight: 500;
@@ -42,6 +37,7 @@ h6 {
 
 h1 {
    font-size: 3.25rem;
+   color: #000000;
 }
 
 h2 {
@@ -70,22 +66,24 @@ p {
 }
 
 a {
-   color: var(--tertiary);
    text-decoration: none;
    font-weight: bold;
 }
-
+a:link {
+   color: #fafafa;
+}
+a:visited {
+   color: #fafafa;
+}
 a:hover {
    color: #272f32;
 }
 
-header {
-   background: var(--light);
-}
-
-header a {
-   justify-content: center;
+.header a:link {
    color: var(--primary);
+}
+.header a:visited {
+   color: #000000;
 }
 
 button {
@@ -102,7 +100,7 @@ button {
 
 button:hover {
    opacity: 0.8;
-   color: #272f32;
+   color: #129acb;
 }
 
 button[disabled] {
@@ -132,10 +130,20 @@ input:focus {
    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
-nav li {
-   list-style-type: none;
+.nav {
+   justify-content: center;
+   justify-content: space-around;
+   background-color: #000000;
 }
 
+.nav-item {
+   list-style-type: none;
+   color: var(--light);
+}
+
+.home-heading {
+   color: var(--dark);
+}
 .container {
    width: 85%;
    max-width: 1200px;
@@ -145,6 +153,17 @@ nav li {
 
 .error-text {
    color: var(--error);
+}
+
+.img-home {
+   max-width: 300px;
+}
+
+.card {
+   flex-direction: row;
+}
+.card img {
+   width: 30%;
 }
 
 @media screen and (max-width: 768px) {
